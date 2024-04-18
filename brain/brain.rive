@@ -1,15 +1,25 @@
 ! version = 2.0
 
-+ hello
-- Hello, what is your name?
++ (hi|hello|yo|bonjour|salut|hey)
+- What's your name!?
 
++ knock knock
+- Who's there?
+
++ *
+% who is there
+- <star> who?
+
++ *
+% * who
+- LOL! <star>! That's funny!
 + _
 % hello what is your name
 - Nice to meet you <formal>!
 
-+ my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
++ [my name is] *
+- <set name = <formal>> GET OUT <get name>
+- FIRE <get name> FIRE!! RUN
 
 + thank you
 - You are welcome
@@ -18,7 +28,17 @@
 - No worries!
 
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
-- I don't get it!
+- there is LITTERALY no time for chit chat!!!
+- WTF are you on about
+-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
++ why
+- DO YOU WANT TO BURN
+- so you survive silly!
+
++ who are you
+- I'M A FIRE ALARM!! AND THERE IS ALWAYS A FIRE 
+
++ (where is the fire|where|how do you know)
+- TRUST ME RUN
+- JUST GO TO YOUR ASSEMBLY POINT !! NOW
