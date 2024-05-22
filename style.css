@@ -1,14 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
+@font-face {
+  font-family: "Krungthep";
+  src:
+    local("Krungthep"),
+    url("Krungthep.ttf") format("trutype");
+}
+
 * {
-  font-family: "Inter", Arial;
+  font-family: "Krungthep", Arial;
   font-size: 12pt;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: #f2f2f2;
+  background:url(Connecting.jpg);
+  background-size: 100%;
 }
 
 .title {
@@ -28,8 +36,8 @@ body {
 }
 
 .chat {
-  background: white;
-  box-shadow: 10px 10px 0px blueviolet;
+  background: black;
+  box-shadow: 10px 10px 0px black;
   overflow: scroll;
   height: 100%;
   display: flex;
@@ -53,27 +61,27 @@ body {
 }
 
 .messages div a {
-  color: white;
+  color: green (255, 3, 205);
 }
 
 .messages div a:hover {
-  color: blueviolet;
+  color: greenyellow;
 }
 
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: black;
-  color: white;
+  background: greenyellow;
+  color: green;
 }
 
 .messages .self {
   text-align: right;
   margin-right: 20px;
   margin-left: auto;
-  background: white;
-  border: 1px solid blueviolet;
-  color: blueviolet;
+  background: whitesmoke;
+  border: 1px solid greenyellow;
+  color: green;
 }
 
 .actions {
@@ -82,7 +90,7 @@ body {
   position: sticky;
   bottom: -1px;
   padding: 10px 0px 20px;
-  background: white;
+  background: black;
 }
 
 .actions input {
@@ -92,12 +100,12 @@ body {
   outline: 0;
   border-top: 0px;
   border-right: 0px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid green;
   border-left: 0px;
 }
 
 input:focus {
-  border-bottom: 2px solid blueviolet;
+  border-bottom: 2px solid greenyellow;
 }
 
 @media all and (min-width: 720px) {
@@ -115,4 +123,21 @@ input:focus {
   .title {
     height: 7.5vh;
   }
+}
+
+audio {
+  height: 30px;
+  display: auto;
+  width: fit-content;
+}
+
+.messages .bot .sub {
+  opacity: 80%;
+  color: fuchsia;
+}
+
+.messages .bot .image {
+  height: 30px;
+  display: auto;
+  width: fit-content;
 }

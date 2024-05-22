@@ -41,3 +41,5 @@ function botReady() {
 function botNotReady(err) {
   console.log("An error has occurred.", err);
 }
+
+<div id="chatcontaoner"></div>
